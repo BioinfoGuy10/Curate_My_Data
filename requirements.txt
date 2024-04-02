@@ -27,8 +27,6 @@ protobuf==4.25.3
 PyDispatcher==2.0.5
 pyls-spyder==0.4.0
 pymed==0.8.9
-pywin32==305.1
-rapidfuzz==3.6.2
 requests
 requests-file
 requests-oauthlib==1.4.0
