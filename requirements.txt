@@ -24,7 +24,6 @@ pandas
 paperscraper==0.2.11
 proto-plus==1.23.0
 protobuf==4.25.3
-pycurl==7.45.2
 PyDispatcher==2.0.5
 pyls-spyder==0.4.0
 pymed==0.8.9
