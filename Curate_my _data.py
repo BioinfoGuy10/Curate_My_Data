@@ -24,7 +24,6 @@ import sys
 import xml.etree.ElementTree as ET
 import os
 import textwrap
-from summarizer import Summarizer,TransformerSummarizer
 import google.generativeai as genai
 from google.generativeai.types import HarmCategory, HarmBlockThreshold
 
