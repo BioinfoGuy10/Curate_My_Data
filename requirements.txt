@@ -31,5 +31,6 @@ requests
 requests-file
 requests-oauthlib==1.4.0
 requests-toolbelt
+streamlit
 
 
