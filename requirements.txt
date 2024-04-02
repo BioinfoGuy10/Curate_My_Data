@@ -4,10 +4,9 @@ requests
 time
 re
 sys
-xml.etree.ElementTree as ET
 os
 textwrap
-google.generativeai
+google-generativeai
 
             
 
