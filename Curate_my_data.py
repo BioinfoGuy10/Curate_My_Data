@@ -169,7 +169,13 @@ if (st.button('Submit')):
 # Convert the summary text to a string
         #summary = str(summary_text)
         #print(summary)
-        chat.send_message(context)
+        completion = False
+        while not completion:
+            try:
+                chat.send_message(context)
+                completion = True  # Assuming completion flag is set after successful message send
+            except Exception as e:  # Catch broader exception types for robustness
+                print(f"Error sending message: {e}")
         
         print("Done")
         final_report = ""
