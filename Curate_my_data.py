@@ -142,7 +142,7 @@ if (st.button('Submit')):
                     abstract_title = None
                 else:
                     abstract['Abstract'].append(text)
-        cleaned_list = [''.join(char for char in s.encode('latin-1').decode('unicode_escape') if char.isalnum() or char.isspace()) for s in abstracts_paragraphs]
+        cleaned_list = [''.join(char for char in s.encode('UTF-8').decode('unicode_escape') if char.isalnum() or char.isspace()) for s in abstracts_paragraphs]
     
         
 #   
